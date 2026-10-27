@@ -1,0 +1,18 @@
+{
+	"enabled": true,
+	"id":"d10-metric",
+	"title":"D10",
+	"symbol":{"type":"file","value":"./d10.svg"},
+	"source":{
+		"type":"command",
+		"executable":"../random-metric.sh",
+		"arguments":["10"],
+		"intervalSeconds":5,
+		"timeoutSeconds":3
+	},
+	"display":{
+		"showBar": false,
+		"suffix":"/10",
+		"normalizedRange":{"minimum":1,"maximum":20}
+	}
+}

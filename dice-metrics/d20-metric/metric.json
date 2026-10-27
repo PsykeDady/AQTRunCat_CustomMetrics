@@ -1,0 +1,13 @@
+{
+	"enabled": true,
+	"id":"d20-metric",
+	"title":"D20",
+	"source":{
+		"type":"command",
+		"arguments":["20"]
+	},
+	"display":{
+		"suffix":"/20",
+		"normalizedRange":{"minimum":1,"maximum":20}
+	}
+}

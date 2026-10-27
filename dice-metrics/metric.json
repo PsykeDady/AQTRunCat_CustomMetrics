@@ -1,0 +1,15 @@
+{
+	"enabled": true,
+	"id":"dice-metrics",
+	"title":"Dice Metrics",
+	"symbol":{"type":"file","value":"./dices.svg"},
+	"source":{
+		"type":"group",
+		"executable":"../random-metric.sh",
+		"intervalSeconds":5,
+		"timeoutSeconds":3
+	},
+	"display":{
+		"showBar": false
+	}
+}

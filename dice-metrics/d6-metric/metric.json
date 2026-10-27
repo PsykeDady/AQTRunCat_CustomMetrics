@@ -1,0 +1,14 @@
+{
+	"enabled": true,
+	"id":"d6-metric",
+	"title":"D6",
+	"symbol":{"type":"file","value":"./dice.svg"},
+	"source":{
+		"type":"command",
+		"arguments":["6"]
+	},
+	"display":{
+		"suffix":"/6",
+		"normalizedRange":{"minimum":1,"maximum":6}
+	}
+}

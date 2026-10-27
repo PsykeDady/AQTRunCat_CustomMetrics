@@ -1,0 +1,16 @@
+{
+	"enabled": true,
+	"id":"wront-icon",
+	"title":"WrongIcon",
+	"symbol":{"type":"file","value":"./d10.svg"},
+	"source":{
+		"type":"command",
+		"executable":"wrong-icon.sh",
+		"arguments":[],
+		"intervalSeconds":5,
+		"timeoutSeconds":3
+	},
+	"display":{
+		"normalizedRange":{"minimum":0,"maximum":1}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"enabled": false,
+	"id":"d100-metric",
+	"title":"D100",
+	"source":{
+		"type":"command",
+		"arguments":["100"]
+	},
+	"display":{
+		"suffix":"/100",
+		"normalizedRange":{"minimum":1,"maximum":100}
+	}
+}

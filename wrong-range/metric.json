@@ -1,0 +1,16 @@
+{
+	"enabled": true,
+	"id":"wront-range",
+	"title":"WrongRange",
+	"symbol":{"type":"file","value":"./dice.svg"},
+	"source":{
+		"type":"command",
+		"executable":"wrong-range.sh",
+		"arguments":[],
+		"intervalSeconds":5,
+		"timeoutSeconds":3
+	},
+	"display":{
+		"normalizedRange":{"minimum":0,"maximum":1}
+	}
+}

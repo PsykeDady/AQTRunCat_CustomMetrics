@@ -1,0 +1,17 @@
+{
+	"enabled": true,
+	"id":"wront-metric",
+	"title":"WrongMetric",
+	"symbol":{"type":"file","value":"./dice.svg"},
+	"source":{
+		"type":"command",
+		"executable":"wrong-metric.sh",
+		"arguments":[],
+		"intervalSeconds":5,
+		"timeoutSeconds":3
+	},
+	"display":{
+		"suffix":"/10",
+		"normalizedRange":{"minimum":1,"maximum":20}
+	}
+}
