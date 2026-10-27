@@ -4,6 +4,18 @@ This repository is a collection of custom metrics created for [AQTRunCat](https:
 
 The metrics currently included are deliberately simple: they explore standalone metrics, groups and inherited settings, command-based sources, icons, display options, disabled entries, and failure handling.
 
+## Installation
+
+Clone the collection into its own directory inside AQTRunCat's metrics directory:
+
+```bash
+mkdir -p ~/.local/share/AQTRunCat/metrics
+git clone https://github.com/PsykeDady/AQTRunCat_CustomMetrics.git \
+  ~/.local/share/AQTRunCat/metrics/ExampleMetrics
+```
+
+AQTRunCat 2.1.8 or later recursively discovers metrics inside collection directories, so `ExampleMetrics` is only an organisational container—not a metric group. The built-in Codex and Claude Code metric directories remain untouched. Use **Reload Custom Metrics** or restart AQTRunCat after installing the collection.
+
 ## Included metrics
 
 - **D10** (`d10-metric/`) turns AQTRunCat into a tiny virtual ten-sided die, rolling a new value from 1 to 10 every five seconds. It is also a standalone-metric example and intentionally uses an unusual display range.
